@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    
+        <center>
+    <h1>Image Recognition Website</h1>
+          <br><br>
+    
+          <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+    <div>
+      <hr>
+      <label> Mother</label>
+      <hr>
+      <label> Father</label>
+      <hr>
+      <label> Sister</label>
+      <hr>
+      <label> Me</label>
+      <hr>
+    </div>
+          <label>Webcam View - </label>
+    <div id="webcam"></div>
+          <br><br>
+    <Button id="b1" class="btn btn-danger"> Take Photo</Button>
+          <br><br>
+          <Button id="b2" class="btn btn-info">Identify Photo</Button>
+          <br><br>
+    <div id=pic>
+    
+    </div>
+          <br><br>
+    
+          <p style="font-size: 25px;">Person : <span id=s1></span> </p>
+          <p style="font-size: 25px;">Accuracy : <span id=s2></span> </p>
+        </center>
+    
+      </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
